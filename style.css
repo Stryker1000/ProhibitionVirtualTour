@@ -1,3 +1,19 @@
+:root{
+  --lightRed: 8EE4AF
+  --red: 
+}
+
+
 body{
   background-color: black;
+}
+
+#start{
+  background-color: #fae5ac;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top:40%;
+  right:40%;
+  
 }
