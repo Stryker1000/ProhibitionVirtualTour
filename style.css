@@ -8,17 +8,18 @@
 
 
 body{
-  background-image: linear-gradient(to bottom, var(--red), var(--green));
+  background-image: linear-gradient(to right, var(--red), var(--lightRed), #c95a4d);
 }
 
 #start{
-  background-color: var(--green);
+  background-image: linear-gradient(to left, var(--green), var(--brown));
   border: none;
-  border-radius: 50px;
+  border-radius: 20px;
   position: absolute;
   top:40%;
-  right:30%;
-  width: 200px;
-  height: 50px;
-  
+  right:25%;
+  width: 250px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
 }
