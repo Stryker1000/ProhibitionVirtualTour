@@ -1,19 +1,24 @@
 :root{
-  --lightRed: 8EE4AF
-  --red: 
+  --lightRed: #C7493A;
+  --red: #A33327;
+  --green: #689775;
+  --brown: #917164;
+  --lightBrown: #AD8174;
 }
 
 
 body{
-  background-color: black;
+  background-image: linear-gradient(to bottom, var(--red), var(--green));
 }
 
 #start{
-  background-color: #fae5ac;
+  background-color: var(--green);
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   position: absolute;
   top:40%;
-  right:40%;
+  right:30%;
+  width: 200px;
+  height: 50px;
   
 }
