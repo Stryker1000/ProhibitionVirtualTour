@@ -1,4 +1,8 @@
 var startButton = document.getElementById("start");
 
-document.onclick()
+startButton.onclick = function(){
+  location.href = "entranceHall.html"
+}
+
+
 
