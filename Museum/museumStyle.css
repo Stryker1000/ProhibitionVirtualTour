@@ -1,13 +1,12 @@
-body{
+body {
   background-color: #827887;
   position: absolute;
   left: 125px;
   top: 50px;
 }
-button{
+button {
   margin-bottom: 100px;
   display: inline-block;
   border-radius: 10px;
   font-family: "Monaco", monospace;
-  
 }
