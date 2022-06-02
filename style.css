@@ -4,15 +4,17 @@
   --green: #689775;
   --brown: #917164;
   --lightBrown: #AD8174;
+  --orange: #ff7b00;
+  --blue: #0084FF;
 }
 
 
 body{
-  background-image: linear-gradient(to right, var(--red), var(--lightRed), #c95a4d);
+  background-image: linear-gradient(to right, var(--orange), var(--blue));
 }
 
 #start{
-  background-image: linear-gradient(to left, var(--green), var(--brown));
+  background-image: linear-gradient(to left, var(--orange), var(--blue));
   border: none;
   border-radius: 20px;
   position: absolute;
