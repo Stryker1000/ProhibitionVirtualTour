@@ -1,12 +1,107 @@
-body {
-  background-color: #827887;
-  position: absolute;
-  left: 125px;
-  top: 50px;
+:root {
+    --lightRed: #C7493A;
+    --red: #A33327;
+    --green: #689775;
+    --brown: #917164;
+    --lightBrown: #AD8174;
+    --orange: #ff7b00;
+    --blue: #0084FF;
 }
+
+body {
+    background-color: #827887;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
 button {
-  margin-bottom: 100px;
-  display: inline-block;
-  border-radius: 10px;
-  font-family: "Monaco", monospace;
+    top: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Monaco", monospace;
+    position: relative !important;
+}
+
+#PLdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#PWPdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#igrdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#ocrime {
+    position: fixed;
+    top: 0px;
+}
+
+#enforce {
+    position: fixed;
+    top: 0px;
+}
+
+#curruption {
+    position: fixed;
+    top: 0px;
+}
+
+#las {
+    position: fixed;
+    top: 0px;
+}
+
+#lat {
+    position: fixed;
+    top: 0px;
+}
+
+#lam {
+    position: fixed;
+    top: 0px;
+}
+
+#WCTUdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#WONPRdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#TASLdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#HIWEdiv {
+    position: fixed;
+    top: 0px;
+}
+
+#backbutton {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+}
+
+p {
+    color: white;
+    border: 10px solid black;
+    font-family: "Monaco", monospace;
+}
+
+h1 {
+    color: white;
+    font-family: "Monaco", monospace;
 }
