@@ -1,30 +1,23 @@
-# Hello website!
+# Prohibition Virtual Tour
 
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen ✨ immediately in the preview window. On the left you'll see the files that make up your site, including HTML, JavaScript, and CSS. You can upload assets like images or audio in `assets`. The rest is up to you and your imagination. 🦄
+Prohibition was the banning of alchohol during the 1920s and this walks people through the problems, what happened, but mostly the problems
 
-## What's in this project?
+## Files
 
 ← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
 
-← `index.html`: This is the main web page for your site. The HTML defines the structure and content of the page using _elements_. You'll see references in the HTML to the JS and CSS files. Try clicking the image in the center of the page!
+← `start.html`: This is a relatively simple html file just containing the button to enter the tour. The styling itself is in the style.css file
 
-← `style.css`: CSS files add styling rules to your content. The CSS applies styles to the elements in your HTML page. The style rules also make the image move when you click it.
+← `style.css`: This is linked to the start.html file. It creates the style for the beginning view of the site
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript. The code in the JavaScript file runs when the page loads, and when the visitor clicks the button you can add below.
+← `script.js`: This adds interactivity to start.html and switches it the the "entrance hall" (entrance.html)
 
-Open each file and check out the comments (in gray) for more info.
+← `HIWE.html`: This stands for how it was ended. It is a seperate html file because there are no buttons so it is a simply href.location = "" 
 
-## Try this next 🏗️
+← `entrance.html`: This is where everything happens. I opted to have one or two html files with hidden content that becomes unhidden but buttons are click. This does make it more messy but it much better that having 10 different html files in my opinion. <br>** Note:** Because of the nature of the prohibition area the names are long so much of it is abbreviated. Above each abbreviation will be a comment describing what is stands for.
 
-Take a look in `TODO.md` for next steps you can try out in your new site!
+← `museumScript.js`: This is the main part of the program. The main idea is hiding and unhiding the elements of "entrance.html". 
 
-___Want a minimal version of this project to build your own website? Check out [Blank Website](https://glitch.com/edit/#!/remix/glitch-blank-website)!___
+← `sources.html`: This is a basic html document designed to show the websites historical sources very basically. The sources here must be in MLA format.
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+← `museumStyle.css`: This the main style sheet for the "entrance.html" file and the "HIWE.html" file

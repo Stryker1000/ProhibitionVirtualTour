@@ -1,18 +1,31 @@
+//igr = Important Groups Room
 var igrButton = document.getElementById("igr");
+//Prohibition Laws
 var PLButton = document.getElementById("PL");
+//How It Was Ended
 var HIWEButton = document.getElementById("HIWE");
+//Problems With Problems
 var PWPButton = document.getElementById("PWP");
 
+//Organized Crime Button
 var crimeButton = document.getElementById("crimeButton");
+//Curruption Button
 var cButton = document.getElementById("cButton");
+//Enforcement Button
 var eButton = document.getElementById("eButton");
 
+//Law Against Manufacturing
 var lam = document.getElementById("lam");
+//Law Against Transportation
 var lat = document.getElementById("lat");
+//Law Against Sale
 var las = document.getElementById("las");
 
+//The Anti Saloon League
 var TASL = document.getElementById("TASL");
+//Women's Christian Temperance Unit
 var WCTU = document.getElementById("WCTU");
+//Womens Organization for National Prohibition Reform
 var WONPR = document.getElementById("WONPR");
 
 var igrdiv = document.getElementById("igrdiv");
@@ -25,6 +38,7 @@ var WCTUdiv = document.getElementById("WCTUdiv");
 var TASLdiv = document.getElementById("TASLdiv");
 
 var curruption = document.getElementById("curruption");
+//Organized Crime
 var crime = document.getElementById("ocrime");
 var enforcement = document.getElementById("enforce");
 
@@ -32,14 +46,17 @@ var lasdiv = document.getElementById("lasdiv");
 var latdiv = document.getElementById("latdiv");
 var lamdiv = document.getElementById("lamdiv");
 
+//Where the Back Button is Located
 var backdiv = document.getElementById("backbutton");
-
+//The Reset Button
 var reset = document.getElementById("reset");
 
 var HIWEdiv = document.getElementById("HIWE");
 
+//All Info Pararaphs and Headers
 var info = document.getElementById("info");
 
+//All of Entrance
 var main = document.getElementById("main");
 main.style.visibility = "hidden";
 entrance.style.visibility = "visible";
